@@ -6,6 +6,7 @@
 
 body {
     background: yellowgreen;
+    overflow: hidden;
 }
 
 @font-face {
