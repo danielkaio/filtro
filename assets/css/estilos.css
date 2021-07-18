@@ -1,0 +1,38 @@
+.conteiner {
+    width: 100%;
+    height: 100%;
+    font-family: glego;
+}
+
+body {
+    background: yellowgreen;
+}
+
+@font-face {
+    font-family: glego;
+    src: url("../fonts/Uchen/Uchen-Regular.ttf");
+}
+
+input[type="search"] {
+    width: 100%;
+    padding: 12px;
+    background: crimson;
+    border: none;
+    text-align: center;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.list li {
+    padding: 5px;
+}
+
+.list li:nth-child(odd) {
+    background-color: whitesmoke;
+    width: 100%;
+}
