@@ -4,7 +4,7 @@ let li = document.querySelectorAll("li")
 
 
 campo.addEventListener('input', () => {
-    let filtro = campo.value
+    let filtro = campo.value;
 
     for (let i = 0; li.length; i++) {
         let item = li[i].textContent
