@@ -19,7 +19,11 @@ input[type="search"] {
     padding: 10px;
     background: crimson;
     border: none;
-    text-align: center;
+ 
+   text-align: center;
+   color:white
+
+
 }
 
 .list {
