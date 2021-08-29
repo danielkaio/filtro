@@ -6,6 +6,7 @@
 
 body {
     background: yellowgreen;
+    overflow: hidden;
 }
 
 @font-face {
@@ -15,7 +16,7 @@ body {
 
 input[type="search"] {
     width: 100%;
-    padding: 12px;
+    padding: 10px;
     background: crimson;
     border: none;
     text-align: center;
